@@ -796,9 +796,9 @@ got@^6.3.0, got@^6.7.1:
     url-parse-lax "^1.0.0"
 
 graceful-fs@^4.1.10, graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.6:
-  version "4.2.0"
-  resolved "https://registry.npm.taobao.org/graceful-fs/download/graceful-fs-4.2.0.tgz#8d8fdc73977cb04104721cb53666c1ca64cd328b"
-  integrity sha1-jY/cc5d8sEEEchy1NmbBymTNMos=
+  version "4.2.1"
+  resolved "https://registry.npm.taobao.org/graceful-fs/download/graceful-fs-4.2.1.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fgraceful-fs%2Fdownload%2Fgraceful-fs-4.2.1.tgz#1c1f0c364882c868f5bff6512146328336a11b1d"
+  integrity sha1-HB8MNkiCyGj1v/ZRIUYygzahGx0=
 
 "graceful-readlink@>= 1.0.0":
   version "1.0.1"
@@ -1678,7 +1678,7 @@ safe-regex@^1.1.0:
   resolved "https://registry.npm.taobao.org/safer-buffer/download/safer-buffer-2.1.2.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fsafer-buffer%2Fdownload%2Fsafer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha1-RPoWGwGHuVSd2Eu5GAL5vYOFzWo=
 
-sao@^2.9.0:
+sao@^1.6.1:
   version "1.6.1"
   resolved "https://registry.npm.taobao.org/sao/download/sao-1.6.1.tgz#74534b9b3df61735243e195635c14e229ea599d5"
   integrity sha1-dFNLmz32FzUkPhlWNcFOIp6lmdU=
