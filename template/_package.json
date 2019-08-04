@@ -1,0 +1,27 @@
+{
+  "name": "<%= name %>",
+  "version": "<%= version %>",
+  "description": "<%= description %>",
+  "author": "",
+  "private": true,
+  "scripts": {
+    <%_ if (ui === 'framevuerk') { _%>
+    "build:framevuerk": "framevuerk-builder -c ./framevuerk-config.js",
+    "prepublish": "<%= pmRun %> build:framevuerk",
+    <%_ } _%>
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    <%_ if (ui === 'element-ui') { _%>
+    "element-ui": "^2.4.11",
+    <%_ } else if (ui === 'iview') { _%>
+    "iview": "^3.1.5",
+    <%_ } _%>
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
