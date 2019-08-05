@@ -37,14 +37,17 @@ module.exports = {
     }
   ],
 
+  templateData () {
+  },
+
   actions () {
-    const actions = [
-      {
+
+    // 添加 template/nuxt 及其子目录下的文件
+    const actions = [{
         type: 'add',
-        files: '**', // 包括子目录的文件
+        files: '**',
         templateDir: 'template/nuxt'
-      }
-    ]
+    }]
 
     // 添加 ui
     if (this.answers.ui !== 'none') {
@@ -55,6 +58,13 @@ module.exports = {
       })
     }
 
+    // 添加 template 目录的文件
+    actions.push({
+      type: 'add',
+      files: '*'
+    })
+
+    // 替换 gitignore 与 _package.json
     actions.push({
       type: 'move',
       patterns: {
